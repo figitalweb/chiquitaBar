@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zzk0cec.css">    
+    <title>Chiquita Bar | Resto-Bar</title>
+</head>
+
+<body>
+    
+<!--    boton voler arriba-->
+    <div class="boton-volver-arriba" id="volverArriba">
+        <a href="#" class="volver-arriba">
+            <i class="fas fa-arrow-alt-circle-up"></i>
+        </a>
+    </div>
+    
+<!-- Encabezado    -->
+    <header>
+        <!--   Version movil-->
+        <div class="menu-mobil">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <img src="img/logo-v2.svg" alt="Logo Chiquita Bar">
+                </a>
+                
+                <a href="#" id="btnMenu">
+                    <i class="fas fa-bars"></i>
+                </a>           
+            </div>
+            <nav class="menu-principal">
+                <a href="#" class="volver-arriba">Inicio</a>
+                <a href="#nosotros" class="scroll-suave">Sobre Nosotros</a>
+                <a href="#menuPlatos" class="scroll-suave scroll-menu">Menú</a>
+                <a href="#eventos" class="scroll-suave scroll-eventos">Eventos</a>
+                <a href="#formularioContacto" class="scroll-suave">Contacto</a>
+            </nav>     
+        </div>
+        
+<!--        Version escritorio-->
+            <div class="menu-bar-pc">
+                <a href="index.html" class="logo">
+                    <img src="img/logo-v2.svg" alt="Logo Chiquita Bar">
+                </a>
+                <nav class="menu-principal">
+                    <a href="#" class="volver-arriba">Inicio</a>
+                    <a href="#nosotros" class="scroll-suave">Sobre Nosotros</a>
+                    <a href="#menuPlatos" class="scroll-suave scroll-menu">Menú</a>
+                    <a href="#eventos" class="scroll-suave scroll-eventos">Eventos</a>
+                    <a href="#formularioContacto" class="scroll-suave">Contacto</a>
+                </nav>
+            </div>
+    </header>
+    
+<!--    encabezado fijo-->
+    <div class="menu-fijo" id="menuFijo">
+            <a href="index.html" class="logo">
+                <img src="img/logo-v2.svg" alt="Logo Chiquita Bar">
+            </a>
+            <nav class="menu-principal">
+                <a href="#" class="volver-arriba">Inicio</a>
+                <a href="#nosotros" class="scroll-suave">Sobre Nosotros</a>
+                <a href="#menuPlatos" class="scroll-suave scroll-menu">Menú</a>
+                <a href="#eventos" class="scroll-suave scroll-eventos">Eventos</a>
+                <a href="#formularioContacto" class="scroll-suave">Contacto</a>
+            </nav>
+    </div>
+    
+<!--    Sección Main-->
+    <section class="main">
+        
+<!--        sección portada principal-->
+        <section class="banner-principal">
+            <div class="banner" id="banner"></div>
+            
+            <div class="texto-banner">
+                <h1>Te invitamos a compartir en nuestro mundo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, qui?</p>
+                <a href="#formularioContacto" class="scroll-suave">Reservar</a>
+            </div>
+        </section>
+        
+<!--        sección sobre nosotros-->
+        <section class="nosotros" id="nosotros">
+            <div class="contenedor">
+                <div class="titulo">
+                    <h2>Nuestro Resto bar</h2>
+                </div>
+                
+                <div class="descripcion">
+                    <p>Somos un restaurante ubicado en Little Havanna, nos apasiona poder brindar un espacio para que las personas puedan compartir momentos alegres y vivir experiencias nuevas.</p><br>
+                    <p>Creemos en la tecnología como herramienta para brindar un mejor servicio y medio necesario para comunicarnos.</p>
+                </div>
+              </div>  
+                <div class="galeria-nosotros">
+                    <div class="galeria">
+                        <img src="img/galeria1.jpg" alt="" class="imagen-galeria">
+                    </div>
+                    <div class="galeria">
+                        <img src="img/galeria2.jpg" alt="" class="imagen-galeria">
+                    </div>
+                    <div class="galeria">
+                        <img src="img/galeria3.jpg" alt="" class="imagen-galeria">
+                    </div>
+                    <div class="galeria">
+                        <img src="img/galeria4.jpg" alt="" class="imagen-galeria">
+                    </div>
+                </div>
+            
+            
+            
+        </section>
+        
+<!--        Seccion menú de platos y tragos-->
+        <section class="menu-platos" id="menuPlatos">
+            <div class="contenedor">
+                <div class="titulo">
+                    <h2>Nuestro Menú</h2>
+                    <p>Ofrecemos una amplia variedad de platos y bebidas.</p>
+                </div>
+                <div class="opciones-menu">
+                    <ul>
+                        <li class="active"><a href="#almuerzo" id="btnAlmuerzo">Almuerzo</a></li>
+                        <li><a href="#brunch" id="btnBrunch">Brunch</a></li>
+                        <li><a href="#cena" id="btnCena">Cena</a></li>
+                        <li><a href="#tragos" id="btnTragos">Tragos</a></li>
+                    </ul>
+                </div>
+                
+<!--                Menu de almuerzo-->
+                <div class="carta-fondo active" id="almuerzo">
+                    <div class="almuerzo"></div>
+                        <div class="contenedor-menu-platos">
+                            <div class="carta-menu-item">
+                                <div class="col-izq">
+                                    <h3>malanga frita</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                </div>
+                                <div class="col-der">
+                                    <p>$100</p>
+                                </div>
+                            </div>
+                            <div class="carta-menu-item">
+                                <div class="col-izq">
+                                    <h3>Ropa vieja con tostones</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                </div>
+                                <div class="col-der">
+                                    <p>$100</p>
+                                </div>
+                            </div>
+                            <div class="carta-menu-item">
+                                <div class="col-izq">
+                                    <h3>Fufú de platano</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                </div>
+                                <div class="col-der">
+                                    <p>$120</p>
+                                </div>
+                            </div>
+                            <div class="carta-menu-item">
+                                <div class="col-izq">
+                                    <h3>Risotto de calabaza</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                </div>
+                                <div class="col-der">
+                                    <p>$120</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+<!--                Menu de brunch-->
+                <div class="carta-fondo" id="brunch">
+                    <div class="brunch"></div>
+                    <div class="contenedor-menu-platos">
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Huevos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Bagels</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Cereales y frutas</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$120</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Pan tostado</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$120</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+<!--                Menu de cena-->
+                <div class="carta-fondo" id="cena">
+                    <div class="cena"></div>
+                    <div class="contenedor-menu-platos">
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Sandwich cubano</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Tapas de carne</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Yuca con mojo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$120</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>Fufú</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$120</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+<!--                menu de tragos-->
+                <div class="carta-fondo" id="tragos">
+                    <div class="tragos"></div>
+                    <div class="contenedor-menu-platos">
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>piña colada</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>mojito</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$100</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>cerveza</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$120</p>
+                            </div>
+                        </div>
+                        <div class="carta-menu-item">
+                            <div class="col-izq">
+                                <h3>the port bech</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                            <div class="col-der">
+                                <p>$120</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        
+<!--        Sección eventos-->
+        <section class="eventos" id="eventos">
+            <div class="contenedor">
+                <div class="titulo">
+                    <h2>Eventos De la semana</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi!</p>
+                </div>
+            </div>
+            <div class="contenedor-slide-general">
+                <div class="slide-contenedor" id="slideContenedor">
+                    <div class="slide">
+                        <img src="img/banda1.jpg" alt="Guitarras Rock">
+                    </div>
+                    <div class="slide">
+                        <img src="img/banda2.jpg" alt="Trompetas y Saxofon">
+                    </div>
+                    <div class="slide">
+                        <img src="img/banda3.jpg" alt="Baladas">
+                    </div>
+                    <div class="slide">
+                        <img src="img/banda4.jpg" alt="Clásicos">
+                    </div>
+                </div>
+                
+                <div class="btn-anterior" id="btnAnterior">
+                    <i class="fas fa-chevron-circle-left"></i>
+                </div>
+                <div class="btn-siguiente" id="btnSiguiente">
+                    <i class="fas fa-chevron-circle-right"></i>
+                </div>
+            </div>
+                
+            
+        </section>
+        
+<!--        Sección de Contacto y formulario-->
+        <section class="formulario-contacto" id="formularioContacto">
+            <div class="contenedor" id="contForm">
+                <div class="contacto">
+                    <h3>¿Necesitas Hacer una reserva?</h3>
+                    <p><i class="fas fa-map-marked-alt"></i> Little Havana</p>
+                    <p><i class="fas fa-phone-alt"></i> +5426451515151</p>
+                    <p><i class="far fa-envelope"></i> chiquita@bar.com</p>
+                </div>
+                <form>
+                    <div>
+                        <input type="text" name="nombre" placeholder="Nombre y Apellido" id="nombre">
+                        <p class="error">Escribe Tu nombre por favor</p>
+                    </div>
+                    <div>
+                        <input type="email" name="correo" placeholder="Correo Electrónico" id="correo">
+                        <p class="error">Escribe Tu correo por favor</p>
+                    </div>
+                    <div>
+                        <input type="tel" name="telefono" placeholder="Teléfono" id="telefono">
+                        <p class="error">Escribe Tu telefono por favor</p>
+                    </div>
+                    <div>
+                        <textarea name="consulta" id="consulta" placeholder="¿En Qué podemos ayudarte?"></textarea>
+                        <p class="error">Escribe Tu mensaje por favor</p>
+                    </div>
+                    <div>
+                        <input type="submit" name="enviar" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+    
+<!--    Seccion de Pie de pagina-->
+    <footer>
+        <div class="contenedor">
+            <div class="copy">
+            <p>&copy; Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-redes">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
